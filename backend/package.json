@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple Task Manager API with Express.js",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js"
